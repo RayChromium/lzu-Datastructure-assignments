@@ -21,7 +21,7 @@ lzu-Datastructure-assignments
 |    |    |etc
 ```
 ## 更新时间
-为了鼓励同学们的独立思考以及防止作业相似度过高而引起的翻车问题(手动狗头)，我决定尽量在**作业布置后的周末**上传作业题目的代码实现，然后下一个周三晚上再上传要提交的那种(PDL描述什么的)
+为了鼓励同学们的独立思考以及防止作业相似度过高而引起的翻车问题(手动狗头)，我决定尽量在**作业布置后的周末**上传作业题目的代码实现，然后**下一个周三晚上**再上传要提交的那种(PDL描述什么的)
 ## 索引
 [第三章作业（第六周）(PDL描述，写在纸上交的那种，下同)](https://github.com/RayChromium/lzu-Datastructure-assignments/blob/master/Chapter_3/md_and_evernote_xml/Chapter_3.md)
   
