@@ -11,7 +11,7 @@ lzu-Datastructure-assignments
 |----Chapter_X  #第X章的作业
 |    |
 |    |
-|    |----md_and_evernote  # 用来放作业,包括md和印象笔记
+|    |----md_and_evernote  # 用来放作业
 |    |    |Chapter_X.md
 |    |    |etc
 |    |    |
