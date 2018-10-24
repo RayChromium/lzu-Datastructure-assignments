@@ -2,7 +2,9 @@
 (这个作业是2018年秋季学期的章后作业，不知道每年会不会有变化的哈)
   
 发现好像不少同学有交流作业的需求，无聊之下将自己的作业放上来……
-欢迎各路大佬们一起交流进步，当然也欢迎各种Pull Request、Issue以及star
+欢迎各路大佬们一起交流进步，当然也欢迎各种`Pull Request`、`Issue`以及`star`
+## 动态
+发现github上的markdown文件里好像不能插入laTex数学公式，如果有知道怎么解决的大佬不妨`Pull Request`告诉我，多谢！
 ## 目录结构
 ```
 lzu-Datastructure-assignments
