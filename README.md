@@ -9,7 +9,7 @@
 ```
 lzu-Datastructure-assignments
 | README.md
-| .gitignore
+| 
 |----Chapter_X  #第X章的作业
 |    |
 |    |
