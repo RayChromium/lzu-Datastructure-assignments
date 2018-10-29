@@ -51,6 +51,8 @@ public class String_type {
      * 那么当字符串的长度为N时，总共需要进行的操作次数为
      * N + (2 + 4 + 8 + 16 +……+ N) ~ O(3N)
      * 时间复杂度为线性，这是可以接受的
+     * 这样做的好处是用一点点时间上的代价换取空间分配上的便利性
+     * 也能够减少数组空间的浪费，最多浪费的空间不会超过n/2
      * (参考文献：Algorithms (4th edition)  by Robert Sedgewick & Kevin Wayne)
      * */
     private void resizing(int capacity){     //用来实现变长的字符型数组,将字符数组的长度改变为capacity
