@@ -34,11 +34,8 @@ BEGIN
 END
 ```
 边界情况：
-1. 
-```math
-$L = Nil$
-```
-2. `$L↑.data = a$`
+1. L = Nil
+2. L↑.data = a
 加入以上两个条件的判断
 最终变成：
 ```pascal
@@ -108,7 +105,7 @@ END
 常规情况：
 将第一个结点的数据作为默认最小值保存为min，遍历链表，每遇到比min更小的值就将min更新
 <font color = blue>边界情况：</font>
-`$H = Nil$`
+H = Nil
 ```pascal
 FUNCTION GetMinimum(H:linkedlist;):datatype
 BEGIN
