@@ -140,13 +140,16 @@ class String_stats{
     {
         first = new Node();      //带表头结点的链表，头结点first用来存放字符串中出现的字符有几种
         first.count = 0;
-        Node now = new Node();          //新的结点，存储某一种字符的是什么与数量
-        now.count  = 0;
+        Node now =first;          //新的结点，存储某一种字符的是什么与数量
         now.next = null;
         first.next = now;     //头结点的next引用(指针)指向now
         for(int i = 0;i<chars.length;i++)
         {
-            if(chars[i] == '\n') continue;        //将已经记录的相同字符替换成回车（不知道有没有别的办法）
+            if(chars[i] == '\n') continue;        //将已经记录的相同字符替换成回车（应该还有更好的办法表示）
+            now.next = new Node();      //新建一个结点，准备寻找下一种字符
+            now = now.next;
+            now.count = 0;
+
             now.c = chars[i];              //存储字符
             now.next = null;               //next初值为null
             for(int j = i;j < chars.length;j++)
@@ -160,15 +163,12 @@ class String_stats{
             }
             first.count++;         //一种字符已经记录完成，头结点中的种类数+1
 
-            now.next = new Node();      //新建一个结点，准备寻找下一种字符
-            now = now.next;
-            now.count = 0;
+
         }
 
-        //上面的循环结束之后结点now中其实是没有有效信息的，或者说这时now.c的值为'\0'
         //输出统计信息：
         System.out.println("字符串中不同种类的字符有"+first.count+"种，分别是：");
-        for(now = first.next;now.c != 0;now = now.next)
+        for(now = first.next;now != null;now = now.next)
             System.out.println(now.c +"\t"+"数量："+now.count);
     }
 }
