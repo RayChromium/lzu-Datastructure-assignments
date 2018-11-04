@@ -30,5 +30,7 @@ lzu-Datastructure-assignments
 [第三章作业的实现（C语言）](https://github.com/RayChromium/lzu-Datastructure-assignments/blob/master/Chapter_3/Implementation/Chapter_3.c)
   
 [第四章作业（第七周）](https://github.com/RayChromium/lzu-Datastructure-assignments/blob/master/Chapter_4/md_and_evernote/Chapter_4.md)
+  
+[第五章作业（第八周）](https://github.com/RayChromium/lzu-Datastructure-assignments/blob/master/Chapter_5/md/Chapter_5.md)
    
 [第五章作业的实现(Java)](https://github.com/RayChromium/lzu-Datastructure-assignments/blob/master/Chapter_5/Implementation/String_type.java)
