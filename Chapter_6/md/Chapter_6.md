@@ -88,7 +88,7 @@
   
 元素![equation](http://latex.codecogs.com/gif.latex?A%280%2C4%2C-2%2C5%29)的地址：
   
-![equation](http://latex.codecogs.com/gif.latex?Loc%280%2C4%2C-1%2C5%29%3D1188&plus;480%5Ctimes0&plus;160%5Ctimes4&plus;32%5Ctimes%28-2%29&plus;4%5Ctimes5%3D1782)
+![equation](http://latex.codecogs.com/gif.latex?Loc%280%2C4%2C-1%2C5%29%3D1188&plus;480%5Ctimes0&plus;160%5Ctimes4&plus;32%5Ctimes%28-2%29&plus;4%5Ctimes5%3D1784)
   
 ### 第五题
 为了节省空间，一般只存储三角矩阵的非零部分。这里认为是以行优先（左下标优先）的方式存储了上三角矩阵U
