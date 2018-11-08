@@ -34,3 +34,5 @@ lzu-Datastructure-assignments
 [第五章作业（第八周）](https://github.com/RayChromium/lzu-Datastructure-assignments/blob/master/Chapter_5/md/Chapter_5.md)
    
 [第五章作业的实现(Java)](https://github.com/RayChromium/lzu-Datastructure-assignments/blob/master/Chapter_5/Implementation/String_type.java)
+  
+[第六章作业（第九周）](https://github.com/RayChromium/lzu-Datastructure-assignments/blob/master/Chapter_6/md/Chapter_6.md)
