@@ -99,13 +99,13 @@
   
 第1行到第i-1行的元素总数为：
   
-![equation](http://latex.codecogs.com/gif.latex?%24%24n&plus;%28n-1%29&plus;%28n-2%29&plus;%5Ccdots&plus;%28i-2%29&plus;%28i-1%29%3D%5Cfrac%7B%28n&plus;i-1%29%28n-i&plus;2%29%7D%7B2%7D%24%24)
+![equation](https://latex.codecogs.com/gif.latex?%24%24n&plus;%28n-1%29&plus;%28n-2%29&plus;%5Ccdots&plus;%28i-1%29%3D%5Cfrac%7B%28i-1%29%282n-i&plus;2%29%7D%7B2%7D%24%24)
   
 第i行在U(i,j)之前的元素个数：
   
 ![equation](http://latex.codecogs.com/gif.latex?%24%24j-i%24%24)
 若一个元素在存储空间中的长度为l，则
   
-![equation](http://latex.codecogs.com/gif.latex?%24%24Loc%28i%2Cj%3DAO%28A%29&plus;%5B%5Cfrac%7B%28n&plus;i-1%29%28n-i&plus;2%29%7D%7B2%7D&plus;j-i%5D%24%24)
+![equation](https://latex.codecogs.com/gif.latex?%24%24Loc%28i%2Cj%29%3DAO%28A%29&plus;%5B%5Cfrac%7B%28i-1%29%282n-i&plus;2%29%7D%7B2%7D&plus;j-i%5D%24%24)
 ### 第六题  略
 ### 第七题  略
