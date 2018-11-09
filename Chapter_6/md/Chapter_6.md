@@ -49,7 +49,7 @@
 ![equation](http://latex.codecogs.com/gif.latex?%24%24A%28i%2Cj%2Ck%29%2Ci%5Cin%5B1%2C2%5D%2Cj%5Cin%5B1%2C2%2C3%5D%2Ck%5Cin%5B1%2C2%2C3%2C4%5D%24%24)
 那么按照左下标优先的存储方式，它在内存中存储的顺序应该是这样的：![3D_01.png](https://github.com/RayChromium/lzu-Datastructure-assignments/blob/master/Chapter_6/images/3D_01.png)
 ![3D_02.png](https://github.com/RayChromium/lzu-Datastructure-assignments/blob/master/Chapter_6/images/3D_02.png)
-由于是左下标优先，在存储的过程中数组下表的变化频率是从右往左逐次递增的
+由于是左下标优先，在存储的过程中数组下表的变化频率是从右往左逐次递减的
 
 那么，如果我们要求出这个三维数组中元素![equation](http://latex.codecogs.com/gif.latex?%24A%282%2C3%2C3%29%24)的地址![equation](http://latex.codecogs.com/gif.latex?%24Loc%282%2C3%2C3%29%24),代入公式得到
 ![equation](http://latex.codecogs.com/gif.latex?%24%24Loc%282%2C3%2C3%29%3DAO%28A%29&plus;l%5Ccdot%5B%5Cunderbrace%7B%282-1%29%5Ccdot%283-1&plus;1%29%5Ccdot%284-1&plus;1%29%7D_%7Bitem1%7D&plus;%5Cunderbrace%7B%283-1%29%5Ccdot%284-1&plus;1%29%7D_%7Bitem2%7D&plus;%5Cunderbrace%7B%283-1%29%7D_%7Bitem3%7D%5D%5C%5C%3D%20AO%28A%29&plus;l%5Ccdot%28%5Cunderbrace%7B1%5Ccdot3%5Ccdot4%7D_%7Bitem1%7D&plus;%5Cunderbrace%7B2%5Ccdot4%7D_%7Bitem2%7D&plus;%5Cunderbrace%7B2%7D_%7Bitem3%7D%29%24%24)
